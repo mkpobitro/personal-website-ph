@@ -110,11 +110,49 @@ h2{
 
 /* ########### Service Section ############## */
 .service-section{
-    
+    background: url(images/biography-bg.png) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 80px 0;
+}
+.service-section h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.service-col{
+    width: 32%;
+    float: left;
+    overflow: hidden;
+    margin: 30px 0;
 }
 
+.service-col-left{
+    width: 20%;
+    float: left;
+}
+.service-col-left img{
+    margin-top: 10px;
+}
 
+.service-col-right{
+    width: 78%;
+    margin-left: 2%;
+    overflow: hidden;
+}
+.service-col-right h4{
+    font-size: 18px;
+}
+.service-col-right p{
+    font-size: 14px;
+}
+.service-col-right p,h4{
+    margin: 0;
+}
 
+.s-col-mid{
+    margin-left: 2%;
+    margin-right: 2%;
+}
 
 
 /* Footer Section */
