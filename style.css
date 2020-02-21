@@ -53,10 +53,13 @@ h2{
 
 .link-btn{
     text-decoration: none;
-    background: #EC4F92;
+    background: linear-gradient(45deg, #FF1C75, #fc408e);
     padding: 10px 30px;
     color: #fff;
     border-radius: 4px;
+}
+.link-btn:hover{
+    background: linear-gradient(45deg, #e00a64 #FF1C75,);
 }
 
 
